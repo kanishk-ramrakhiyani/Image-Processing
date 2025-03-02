@@ -1,6 +1,6 @@
 # Image Processing System
 
-A Python-based image processing system that accepts CSV file uploads containing product data and image URLs, downloads and compresses the images asynchronously, and stores processed data in a PostgreSQL database.
+A Python-based image processing system that accepts CSV file uploads containing product data and image URLs, downloads and compresses the images asynchronously, stores processed data in a PostgreSQL database and triggers an external Webhook on successful completion of request.
 
 ## Overview
 
@@ -10,6 +10,7 @@ This project implements an end-to-end solution for processing product data with 
 - A **Status API** to check the processing status of each request.
 - Asynchronous image downloading and compression.
 - Storage of processed CSV data and image details in a PostgreSQL database.
+- Triggering a webhook on successful completion of request
 
 ## Features
 
@@ -28,6 +29,9 @@ This project implements an end-to-end solution for processing product data with 
 
 - **Postman Collection:**  
   A publicly accessible Postman collection is provided for easy API testing.
+
+- **External Webhook:**  
+  Triggers an external webhook on successful completion of request.
 
 ## Technologies Used
 
