@@ -1,4 +1,6 @@
 Serial Number,Product Name,Input Image Urls
-1,ProductA,example
-2,ProductB,example
+1,ProductA,"https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg,https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg
+"
+2,ProductB,"https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg
+"
 
