@@ -3,7 +3,7 @@ import io
 import os
 import asyncio
 import shutil
-
+from Webhook import trigger_webhook
 import requests
 from PIL import Image
 from DatabaseHelper import update_request_status, delete_request_status, insert_image_link
@@ -136,7 +136,7 @@ async def process_csv(csv_content, request_id, validate_only=False):
                 failure_count += len(output_urls) - len(filtered_urls)
 
         update_request_status(request_id, "completed")
-
+        trigger_webhook(request_id,success_count,failure_count)
         return success_count, failure_count, errors
     except Exception:
         # delete_request_status(request_id)
