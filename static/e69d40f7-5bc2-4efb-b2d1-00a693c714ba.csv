@@ -1,0 +1,5 @@
+Serial Number,Product Name,Input Image Urls,Processed Image URLs
+1,ProductA,"https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg,https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg
+","/uploads/e69d40f7-5bc2-4efb-b2d1-00a693c714ba/e69d40f7-5bc2-4efb-b2d1-00a693c714ba-1.jpg,/uploads/e69d40f7-5bc2-4efb-b2d1-00a693c714ba/e69d40f7-5bc2-4efb-b2d1-00a693c714ba-2.jpg"
+2,ProductB,"https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg
+",/uploads/e69d40f7-5bc2-4efb-b2d1-00a693c714ba/e69d40f7-5bc2-4efb-b2d1-00a693c714ba-3.jpg
