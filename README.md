@@ -74,3 +74,6 @@ output_image_urls text
 - **The uploaded images are kept in a directory with the name of request id and inside it images are labelled as Request_id-1,Request_id-2 and so on**
 - **Processed CSVs are kept in static directory with name Request-id.csv**
 - **More information can be found in the detailed document.**
+## NOTES
+- **WE are using LocalHost for everything right now, hence initial setup needs to be done, additionally since
+images are being stored locally, output URL is a local folders location.**
